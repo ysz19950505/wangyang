@@ -30,7 +30,6 @@ body{
 .main>form>ul>li.two_li>input{
     width: 300px;height: 50px;float: left; font-size: 14px; font-weight: bold;
     line-height: 50px;font-family: 微软雅黑;outline: none;padding-left: 20px;
-    color: rgb(255, 255, 255);opacity: 0.99;
 }
 .main>form>ul>li.three_li>p{
 	float: left;width: 76px;height: 50px; font-size: 14px; font-weight: bold;line-height: 50px;
@@ -42,7 +41,6 @@ body{
 .main>form>ul>li.three_li>input{
     width: 245px;height: 50px;float: left; font-size: 14px; font-weight: bold;
     line-height: 50px;font-family: 微软雅黑;outline: none;padding-left: 20px;
-    color: rgb(255, 255, 255);opacity: 0.99;
 }
 .main>form>ul>li.three_li>img{
 	float: left;margin: 11px 10px;
@@ -60,7 +58,6 @@ body{
 .main>form>ul>li.four_li>input{
     width: 300px;height: 50px;float: left; font-size: 14px; font-weight: bold;
     line-height: 50px;font-family: 微软雅黑;outline: none;padding-left: 20px;
-    color: rgb(255, 255, 255);opacity: 0.99;
 }
 .main>form>ul>li.four_li>.password{
 	width: 128px;height: 50px;float: left;margin-left: 15px;
@@ -87,7 +84,6 @@ body{
 .main>form>ul>li.five_li>input{
     width: 300px;height: 50px;float: left; font-size: 14px; font-weight: bold;
     line-height: 50px;font-family: 微软雅黑;outline: none;padding-left: 20px;
-    color: rgb(255, 255, 255);opacity: 0.99;
 }
 .main>form>ul>li.six_li{
 	width: 564px;height: 50px;float: left;margin-top: 14px;
