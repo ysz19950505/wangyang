@@ -1,0 +1,162 @@
+
+*{
+	margin: 0px;padding: 0px;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+body{
+	width:100%;height: 100%;background: gray;
+}
+.main{
+	width: 564px;height: 640px;margin: 0px auto;padding: 22px 218px;position: relative;
+}
+.main>form>ul>li.one_li{
+	width: 324px;height: 106px;padding: 27px 120px;float: left;
+}
+.main>form>ul>li.two_li{
+	width: 564px;height: 50px;float: left;
+}
+.main>form>ul>li.two_li>p{
+	float: left;width: 76px;height: 50px; font-size: 14px; font-weight: bold;line-height: 50px;
+    color: #ffffff;opacity: 0.9; filter: alpha(opacity=90); padding-right: 20px;
+}
+.main>form>ul>li.two_li>input{
+    width: 300px;height: 50px;float: left; font-size: 14px; font-weight: bold;
+    line-height: 50px;font-family: 微软雅黑;outline: none;padding-left: 20px;
+    color: rgb(255, 255, 255);opacity: 0.99;
+}
+.main>form>ul>li.three_li>p{
+	float: left;width: 76px;height: 50px; font-size: 14px; font-weight: bold;line-height: 50px;
+    color: #ffffff;opacity: 0.9; filter: alpha(opacity=90); padding-right: 20px;
+}
+.main>form>ul>li.three_li{
+	width: 564px;height: 50px;float: left;margin-top: 14px;
+}
+.main>form>ul>li.three_li>input{
+    width: 245px;height: 50px;float: left; font-size: 14px; font-weight: bold;
+    line-height: 50px;font-family: 微软雅黑;outline: none;padding-left: 20px;
+    color: rgb(255, 255, 255);opacity: 0.99;
+}
+.main>form>ul>li.three_li>img{
+	float: left;margin: 11px 10px;
+}
+.main>form>ul>li.three_li>a{
+	float: left;color: white;font-size: 12px;line-height: 50px;margin-left: 4px;
+}
+.main>form>ul>li.four_li{
+	width: 564px;height: 50px;float: left;margin-top: 14px;
+}
+.main>form>ul>li.four_li>p{
+	float: left;width: 76px;height: 50px; font-size: 14px; font-weight: bold;line-height: 50px;
+    color: #ffffff;opacity: 0.9; filter: alpha(opacity=90); padding-right: 20px;
+}
+.main>form>ul>li.four_li>input{
+    width: 300px;height: 50px;float: left; font-size: 14px; font-weight: bold;
+    line-height: 50px;font-family: 微软雅黑;outline: none;padding-left: 20px;
+    color: rgb(255, 255, 255);opacity: 0.99;
+}
+.main>form>ul>li.four_li>.password{
+	width: 128px;height: 50px;float: left;margin-left: 15px;
+}
+.main>form>ul>li.four_li>.password>.password_1{
+	float: left;width: 128px;height: 12px;background: white;margin-top: 16px;
+}
+.main>form>ul>li.four_li>.password>.password_2{
+	float: left;width: 128px;height: 16px;
+}
+.main>form>ul>li.four_li>.password>.password_2>p{
+	float: left;color: #4c4c4c;font-size:12px ;margin-top: 2px;margin-right: 46px;
+}
+.main>form>ul>li.four_li>.password>.password_2>p.p_1{
+	margin-right: 0px;
+}
+.main>form>ul>li.five_li{
+	width: 564px;height: 50px;float: left;margin-top: 14px;
+}
+.main>form>ul>li.five_li>p{
+	float: left;width: 76px;height: 50px; font-size: 14px; font-weight: bold;line-height: 50px;
+    color: #ffffff;opacity: 0.9; filter: alpha(opacity=90); padding-right: 20px;
+}
+.main>form>ul>li.five_li>input{
+    width: 300px;height: 50px;float: left; font-size: 14px; font-weight: bold;
+    line-height: 50px;font-family: 微软雅黑;outline: none;padding-left: 20px;
+    color: rgb(255, 255, 255);opacity: 0.99;
+}
+.main>form>ul>li.six_li{
+	width: 564px;height: 50px;float: left;margin-top: 14px;
+}
+.main>form>ul>li.six_li>p{
+	float: left;width: 76px;height: 50px;
+}
+.main>form>ul>li.six_li>.content{
+    width: 300px;height: 50px;float: left; padding: 20px 17px 0px 17px;
+}
+.main>form>ul>li.six_li>.content>input{
+	float: left;resize: none;outline: none;
+}
+.main>form>ul>li.six_li>.content>p{
+	float: left;font-size:12px ;margin-left: 6px;color: white;
+}
+.main>form>ul>li.six_li>.content>a{
+	float: left;font-size:12px ;color: #0c79cc;
+}
+.main>form>ul>li.seven_li{
+	width: 564px;height: 50px;float: left;margin-top: 14px;
+}
+.main>form>ul>li.seven_li>p{
+	float: left;width: 76px;height: 50px;
+}
+.main>form>ul>li.seven_li>input{
+	cursor: pointer;width: 320px;height: 50px;border: 0; padding: 0px;
+    background: #25292e;font-size: 18px;color: #ffffff;font-weight: bold;
+    margin-bottom: 10px;margin-left: 20px;outline: none;
+}
+.main>form>ul>li.eight_li{
+	width: 564px;height: 40px;float: left;margin-top: 30px;
+}
+.main>form>ul>li.eight_li>p{
+	float: left;width: 76px;height: 40px;margin-right: 20px;
+}
+.main>form>ul>li.eight_li>.links{
+	width: 320px;height: 40px;float: left;
+}
+.main>form>ul>li.eight_li>.links>a.links_1{
+	width: 36px;height: 24px;margin-left: 5px;float: left;
+	background: url(../img/icon1.png);background-position:-50px -467px ;
+}	
+.main>form>ul>li.eight_li>.links>a.links_2{
+	width: 36px;height: 24px;margin-left: 5px;float: left;
+	background: url(../img/icon1.png);background-position:-80px -467px ;
+}
+.main>form>ul>li.eight_li>.links>a.links_3{
+	width: 36px;height: 24px;margin-left: 5px;float: left;
+	background: url(../img/icon1.png);background-position:-111px -467px ;
+}
+.main>form>ul>li.eight_li>.links>a.links_4{
+	width: 36px;height: 24px;margin-left: 5px;float: left;
+	background: url(../img/icon1.png);background-position:-20px -467px ;
+}
+.main>form>ul>li.eight_li>.links>a.links_1:hover{
+	background: url(../img/icon1.png);background-position:-50px -437px ;
+}
+.main>form>ul>li.eight_li>.links>a.links_2:hover{
+	background: url(../img/icon1.png);background-position:-80px -437px ;
+}
+.main>form>ul>li.eight_li>.links>a.links_3:hover{
+	background: url(../img/icon1.png);background-position:-111px -437px ;
+}
+.main>form>ul>li.eight_li>.links>a.links_4:hover{
+	background: url(../img/icon1.png);background-position:-20px -437px ;
+}
+.main>form>ul>li.eight_li>.links>a.links_5{
+	width: 56px;height: 23px;float: right;border-bottom: 1px solid #ffffff;
+	font-weight: bold;color: #ffffff;font-size: 14px;
+
+
