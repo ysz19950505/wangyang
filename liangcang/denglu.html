@@ -12,23 +12,23 @@
 					<a href="javascript:"><img src="img/nlicon.png"/></a>
 				</li>
 				<li class="two_li">
-					<input type="text" class="mobile" placeholder="输入手机号"/>
+					<input id="username" type="text" class="mobile" value="输入手机号"/>
 				</li>
 				<li class="three_li">
 					<div class="code1">
-						<input type="text" class="code" placeholder="输入验证码"/>
-					    <div class="sendcode">获取验证码</div>
+						<input type="text" id="code" class="code" value="输入密码"/>
+					    <div class="sendcode">忘记密码</div>
 					</div>
 				</li>
 				<li class="four_li">
 					<div class="logon1">
-						<input type="checkbox" checked="checked"/>
-					    <div class="logon">自动登录</div>
+						<input id="checkboxed" type="checkbox" checked="checked"/>
+					    <div class="logon">七天免登录</div>
 					</div>
 				</li>
 				<li class="five_li">
 					<div class="logonbtn">
-						<input type="submit" value="登录" />
+						<input type="submit" id="denglu" value="登录" />
 					</div>
 				</li>
 				<li class="six_li">
@@ -40,3 +40,5 @@
 		</div>
 	</body>
 </html>
+<script type="text/javascript" src="js/jquery-3.2.1.js" ></script>
+<script type="text/javascript" src="js/denglu.js" ></script>

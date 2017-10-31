@@ -63,7 +63,10 @@ body{
 	width: 128px;height: 50px;float: left;margin-left: 15px;
 }
 .main>form>ul>li.four_li>.password>.password_1{
-	float: left;width: 128px;height: 12px;background: white;margin-top: 16px;
+	float: left;width: 129px;height: 12px;background: white;margin-top: 16px;
+}
+.main>form>ul>li.four_li>.password>.password_1>div{
+	width: 43px;height: 12px;float: left;background: white;
 }
 .main>form>ul>li.four_li>.password>.password_2{
 	float: left;width: 128px;height: 16px;
