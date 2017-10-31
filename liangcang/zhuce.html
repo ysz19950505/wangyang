@@ -14,17 +14,17 @@
                   	</li>
                   	<li class="two_li">
                   		<p>手机号</p>
-                  		<input type="text" placeholder="请输入手机号" />
+                  		<input type="text" id="telphone" placeholder="" value="请输入手机号"/>
                   	</li>
                   	<li class="three_li">
                   		<p>验证码</p>
-                  		<input type="text" placeholder="输入验证码" />
-                  		<img src="img/yanzhengma.png"/>
-                  		<a href="javascript:">看不清，换一张</a>
+                  		<input id="yzm" type="text" placeholder="" value="输入验证码"/>
+                  		<span class="idcode" id="idcode"></span>
+                  		<a id="change" href="javascript:">看不清，换一张</a>
                   	</li>
                   	<li class="four_li">
                   		<p>创建密码</p>
-                  		<input type="text" placeholder="6-20位字符组成，区分大小写" />
+                  		<input type="text" placeholder=""value="6-20位字符组成，区分大小写" />
                   		<div class="password">
                   			<div class="password_1"></div>
                   			<div class="password_2">
@@ -36,7 +36,7 @@
                   	</li>
                   	<li class="five_li">
                   		<p>密码确认</p>
-                  		<input type="text" placeholder="确认密码" />
+                  		<input type="text" placeholder=""value="确认密码" />
                   	</li>
                   	<li class="six_li">
                   		<p></p>
@@ -65,3 +65,6 @@
 		</div>
 	</body>
 </html>
+<script type="text/javascript" src="js/jquery-3.2.1.js" ></script>
+<script type="text/javascript" src="js/jquery.idcode.js" ></script>
+<script type="text/javascript" src="js/zhuce.js" ></script>

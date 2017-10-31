@@ -42,8 +42,8 @@ body{
     width: 245px;height: 50px;float: left; font-size: 14px; font-weight: bold;
     line-height: 50px;font-family: 微软雅黑;outline: none;padding-left: 20px;
 }
-.main>form>ul>li.three_li>img{
-	float: left;margin: 11px 10px;
+.main>form>ul>li.three_li>span.idcode{
+	float: left;margin: 14px 10px;background: black;width: 48px;
 }
 .main>form>ul>li.three_li>a{
 	float: left;color: white;font-size: 12px;line-height: 50px;margin-left: 4px;
