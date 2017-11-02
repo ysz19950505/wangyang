@@ -42,7 +42,8 @@ $("#Txtidcode").blur(function(){
 		b = 1;
 		return 
 	}else{
-		alert("请输入正确的验证码")
+		console.log("请输入正确的验证码")
+		//alert("请输入正确的验证码")
 		//return false
 		b = 0
 
