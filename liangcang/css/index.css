@@ -16,15 +16,26 @@ a{
 
 /*top css*/
 #header{
-	height: 56px;
+	height: 153px;
 	width: 100%;
-	background-color: #25292e;
+	position: fixed; top: 0px;
+	z-index: 9999;
+	
 }
 .wrap{
+	height: 56px;
+	width: 100%;
+	margin: 0px auto;
+	overflow: hidden;
+	background-color: #25292e;
+	
+}
+.wrapp{
 	height: 56px;
 	width: 1000px;
 	margin: 0px auto;
 	overflow: hidden;
+	background-color: #25292e;
 }
 .logo{
 	margin: 9px 0px;
@@ -86,6 +97,8 @@ a{
 	height: 49px;
 	width: 1000px;
 	margin: 0px auto;
+	position: relative;
+	background: white;
 }
 .subMenu ul li{
 	float: left;
@@ -100,7 +113,29 @@ a{
 	width: 260px;
 	height: 49px;
 	float: right;
+	position: relative;
+	overflow: hidden;
 	
+}
+#search-k{
+	width: 267px;
+	height: 49px;
+	border: none;
+	outline: none;
+	background: black;
+	border-bottom:4px solid black;
+	color: white;
+	font-size: 20px;
+	/*position: absolute;top: 0px; left: 267px;*/
+	/*z-index: 0;*/
+}
+.search-kk{
+	width: 267px;
+	height: 45px;
+	/*border: none;*/
+	border-bottom:4px solid black;
+	position: absolute;top: 0px; left: 267px;
+	z-index: 10000;
 }
 .icon-s{
 	margin-top: 7px;
@@ -110,6 +145,7 @@ a{
 	background-position: -173px -147px;
 	display: block;
 	float: right;
+	z-index: 10001;
 }
 .subnav{
 	width: 1000px;
@@ -117,23 +153,46 @@ a{
 	background: #e2e2e2;
 	float: left;
 	border-radius: 2px;
+	position: relative;
+	
+}
+.subnav .mover{
+	width: 118px;
+	height: 4px;
+	background: black;
+	position: absolute; top: 0px; left: 0px;
+}
+.subHideStore{
+	/*display: none;*/
+    position: absolute;
+    left: 0;
+    top: 49px;
+    width: 1000px;
+    letter-spacing: 1px;
+    background: #fff;
+    z-index: 2000;
 }
 /*mian css*/
 .main{
+	margin-top: 100px;
 	width: 1000px;
 	height: auto;
 	margin: 0px auto;
 	position: relative;
 }
 .jcarousel{
-	margin-top: 33px;
+	
 	width: 1000px;
 	height: 475px;
 	position: relative;
+	margin-top: 154px;
 }
 .jcarousel ul li{
 	position: absolute;left: 0px; top: 0px;
 	z-index: 100;
+}
+.jcarousel span{
+	display: none;
 }
 .jc-left{
 	height: 50px;
@@ -143,6 +202,7 @@ a{
 	z-index: 120;
 	border-radius: 50%;
 	background-color: ;
+	
 }
 .jc-right{
 	height: 50px;
@@ -152,7 +212,14 @@ a{
 	z-index: 120;
 	border-radius: 50%;
 }
-
+.jcarousel span{
+	
+	display: none;
+}
+.jcarousel:hover span{
+	display: block;
+	cursor: pointer;
+}
 .action-dot{
 	width: 150px;
 	height: 18px;
@@ -202,6 +269,44 @@ a{
 	height: 366px;
 	margin: 0px 0px 30px 26px;
 	float: left;
+	
+}
+.box-goods .img{
+	position: relative;
+}
+.black-b{
+	width: 316px;
+	height: 316px;
+	background: rgba(0,0,0,0.7);
+	
+	float: left;
+	position: absolute; top: 0px; left: 0px;
+	z-index: 1020;
+	display: none;
+}
+.black-b .price{
+	color: deepskyblue;
+	font: 30px/30px "微软雅黑";
+	font-style: italic;
+	float: left;
+	position: absolute; top: 20px; left: 20px;
+}
+.black-b h3{
+	width: 260px;
+	color: white;
+	position: absolute; top: 100px; left: 20px;
+	z-index: 1021;
+	font-weight: lighter;
+}
+.black-b h5{
+	width: 260px;
+	color: white;
+	position: absolute; top: 200px; left: 20px;
+	z-index: 1021;
+	font-weight: lighter;
+}
+.box-goods .img:hover .black-b{
+	display: block;
 }
 .box-goods .img img{
 	width: 316px;
@@ -236,13 +341,14 @@ a{
 	margin: 0px 0px 30px 0px;
 	float: left;
 }
+
 .more{
 	width: 148px;
 	height: 50px;
 	border: 3px solid black;
-	float: left;
-	margin: 60px 426px 0px 426px;
+	margin: 60px auto;
 	text-align: center;
+	
 }
 .more a{
 	font:18px/50px "微软雅黑";
@@ -277,6 +383,7 @@ a{
 	width: 300px;
 	height: 20px;
 	margin: 0px auto;
+	position: relative;
 }
 .service a span{
 	float: left;
@@ -285,6 +392,7 @@ a{
 	background: url(../img/icon.png) no-repeat;
 	background-position: -173px -356px;
 	margin: 0px auto;
+	position: absolute; left: -20px;
 }
 /*bottom css*/
 .bottom{
@@ -415,6 +523,7 @@ a{
 	background: url(../img/icon.png) no-repeat;
 	background-position: -20px -813px;
 	position: fixed; right: 20px; bottom: 50px;
+	display: none;
 }
 .btt:hover{
 	opacity: 0.5;

@@ -15,11 +15,11 @@ var objvalue = this.value;
 var reg=/^(?:13\d|15\d|18[123456789])-?\d{5}(\d{3}|\*{3})$/;
 	if(reg.test(objvalue)){
 		a = 1
-	    return true
+	   // return true
 	    
 	}else{
 	    alert("请输入正确的手机号码")
-	    c = 0
+	    a = 0
 	    //return false
 	}
 }
@@ -34,13 +34,16 @@ $("#Txtidcode").focus(function(){
 	}
 })
 $("#Txtidcode").blur(function(){
-	if ($(this).val("")){
+	if ($(this).val() == ""){
 		$(this).val("输入验证码")
 	}
+	
 	var n = $.idcode.validateCode()
+	
+	
 	if (n == true) {
 		b = 1;
-		return 
+		//return 
 	}else{
 		console.log("请输入正确的验证码")
 		//alert("请输入正确的验证码")
@@ -70,7 +73,7 @@ $("#ppd").blur(function(){
 	}
 	else{
 		c = 1;
-		return true;
+		//return true;
 	}
 	
 })
@@ -117,7 +120,7 @@ $("#conf").blur(function(){
 	}
 	if ($(this).val() == $("#ppd").val() ) {
 		d = 1;
-		return true
+		//return true
 	}
 	else{
 		alert("您的密码不一致")
@@ -149,7 +152,7 @@ $("#regist").click(function(){
 					return
 				}else{
 					alert("注册成功")
-					window.location.href = "www.baidu.com"
+					window.location.href = "http://127.0.0.1:8020/liangcang/denglu_01.html"
 				}
 			})	 
 		}else{
